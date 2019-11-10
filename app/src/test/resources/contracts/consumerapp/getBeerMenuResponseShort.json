@@ -1,0 +1,59 @@
+{
+  "beerList": [
+    {
+      "brand": "Brand",
+      "type": "PILS",
+      "percentage": 5
+    },
+    {
+      "brand": "Brand",
+      "type": "ALC_VRIJ",
+      "percentage": 0
+    },
+    {
+      "brand": "Jupiler",
+      "type": "PILS",
+      "percentage": 5.2
+    },
+    {
+      "brand": "Dommelsch",
+      "type": "PILS",
+      "percentage": 5
+    },
+    {
+      "brand": "Grolsch",
+      "type": "PILS",
+      "percentage": 5
+    },
+    {
+      "brand": "Bavaria",
+      "type": "PILS",
+      "percentage": 5
+    },
+    {
+      "brand": "Bavaria",
+      "type": "ALC_VRIJ",
+      "percentage": 0
+    },
+    {
+      "brand": "Leffe",
+      "type": "BLOND",
+      "percentage": 6.6
+    },
+    {
+      "brand": "Leffe",
+      "type": "TRIPLE",
+      "percentage": 8.5
+    },
+    {
+      "brand": "Karmeliet",
+      "type": "TRIPLE",
+      "percentage": 8.4
+    },
+    {
+      "brand": "Brugse Zot",
+      "type": "BLOND",
+      "percentage": 6
+    }
+  ]
+}
