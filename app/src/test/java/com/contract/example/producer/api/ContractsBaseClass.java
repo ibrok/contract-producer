@@ -39,4 +39,8 @@ public class ContractsBaseClass {
         values.forEach(BeerType::valueOf);
     }
 
+    public void isBeerType(List<String> values, String value) {
+        assert values.stream().map(BeerType::valueOf).allMatch(type -> type.equals(BeerType.valueOf(value)));
+    }
+
 }

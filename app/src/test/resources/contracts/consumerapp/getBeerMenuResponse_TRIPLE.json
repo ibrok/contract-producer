@@ -1,0 +1,14 @@
+{
+  "beerList": [
+    {
+      "brand": "Leffe",
+      "type": "TRIPLE",
+      "percentage": 8.5
+    },
+    {
+      "brand": "Karmeliet",
+      "type": "TRIPLE",
+      "percentage": 8.4
+    }
+  ]
+}
