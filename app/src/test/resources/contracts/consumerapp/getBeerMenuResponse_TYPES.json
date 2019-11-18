@@ -1,0 +1,14 @@
+{
+  "beerList": [
+    {
+      "brand": "FooBrand",
+      "type": "{{{ request.path.[1] }}}",
+      "percentage": 8.5
+    },
+    {
+      "brand": "BarBrand",
+      "type": "{{{ request.path.[1] }}}",
+      "percentage": 8.4
+    }
+  ]
+}
