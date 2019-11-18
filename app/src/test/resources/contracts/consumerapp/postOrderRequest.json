@@ -1,0 +1,28 @@
+{
+  "orderItems": [
+    {
+      "beer": {
+        "brand": "Jupiler",
+        "type": "PILS",
+        "percentage": 5.2
+      },
+      "quantity": 3
+    },
+    {
+      "beer": {
+        "brand": "Karmeliet",
+        "type": "TRIPLE",
+        "percentage": 8.4
+      },
+      "quantity": 3
+    },
+    {
+      "beer": {
+        "brand": "Bavaria",
+        "type": "ALC_VRIJ",
+        "percentage": 0
+      },
+      "quantity": 1
+    }
+  ]
+}

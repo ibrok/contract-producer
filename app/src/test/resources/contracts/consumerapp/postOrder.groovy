@@ -16,7 +16,16 @@ Contract.make {
                                     percentage: value(consumer(regex("[0-9]+(\\.[0-9]+)?")), producer( 8.5))
                             ],
                             quantity: value(consumer(regex("[0-9]+")), producer(3))
+                        ],
+                        [
+                            beer: [
+                                    brand: value(consumer(anyNonBlankString()), producer("Karmeliet")),
+                                    type: value(consumer(anyOf("TRIPLE", "DUBBEL", "PILS", "BLOND", "ALC_VRIJ")), producer("TRIPLE")),
+                                    percentage: value(consumer(regex("[0-9]+(\\.[0-9]+)?")), producer( 8.4))
+                            ],
+                            quantity: value(consumer(regex("[0-9]+")), producer(3))
                         ]
+
                 ]
 
         ])
