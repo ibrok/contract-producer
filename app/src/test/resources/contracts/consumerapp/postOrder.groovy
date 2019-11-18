@@ -11,19 +11,11 @@ Contract.make {
                 orderItems: [
                         [
                             beer: [
-                                    brand: "Leffe",
-                                    type: "TRIPLE",
-                                    percentage: 8.5
+                                    brand: value(consumer(anyNonBlankString()), producer("Leffe")),
+                                    type: value(consumer(anyOf("TRIPLE", "DUBBEL", "PILS", "BLOND", "ALC_VRIJ")), producer("TRIPLE")),
+                                    percentage: value(consumer(regex("[0-9]+(\\.[0-9]+)?")), producer( 8.5))
                             ],
-                            quantity: 3
-                        ],
-                        [
-                            beer: [
-                                    brand: "Karmeliet",
-                                    type: "TRIPLE",
-                                    percentage: 8.4
-                            ],
-                            quantity: 2
+                            quantity: value(consumer(regex("[0-9]+")), producer(3))
                         ]
                 ]
 
